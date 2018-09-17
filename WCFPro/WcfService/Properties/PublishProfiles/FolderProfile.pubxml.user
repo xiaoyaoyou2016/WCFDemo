@@ -10,16 +10,19 @@
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/WcfService.dll">
-      <publishTime>09/16/2018 00:42:01</publishTime>
+      <publishTime>09/17/2018 23:18:49</publishTime>
     </File>
     <File Include="bin/WcfService.pdb">
-      <publishTime>09/16/2018 00:42:01</publishTime>
+      <publishTime>09/17/2018 23:18:49</publishTime>
+    </File>
+    <File Include="FoxCtrl.svc">
+      <publishTime>09/17/2018 21:40:04</publishTime>
     </File>
     <File Include="SalesOpt.svc">
       <publishTime>09/11/2018 10:56:17</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/16/2018 00:52:09</publishTime>
+      <publishTime>09/17/2018 23:37:56</publishTime>
     </File>
   </ItemGroup>
 </Project>

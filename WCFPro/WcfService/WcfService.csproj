@@ -62,10 +62,17 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FoxCtrl.svc" />
     <Content Include="SalesOpt.svc" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FoxCtrl.svc.cs">
+      <DependentUpon>FoxCtrl.svc</DependentUpon>
+    </Compile>
+    <Compile Include="IFoxCtrl.cs" />
     <Compile Include="ISalesOpt.cs" />
     <Compile Include="SalesOpt.svc.cs">
       <DependentUpon>SalesOpt.svc</DependentUpon>

@@ -19,13 +19,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://192.168.1.156:8066/server/SalesOpt.svc/mex" Protocol="mex" SourceId="1" />
+    <MetadataSource Address="http://192.168.1.156:8066/server/SalesOpt.svc/mex/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="6eb9c77e-4cee-4271-b1df-3b2443446ded" SourceId="1" SourceUrl="http://192.168.1.156:8066/server/SalesOpt.svc/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="30e7e2a8-c16c-4e4f-830c-70707900787f" SourceId="1" SourceUrl="http://192.168.1.156:8066/server/SalesOpt.svc/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="cc0117e9-60d8-456a-9496-92d72e84818f" SourceId="1" SourceUrl="http://192.168.1.156:8066/server/SalesOpt.svc/mex" />
-    <MetadataFile FileName="System.Data.xsd" MetadataType="Schema" ID="34396696-8e20-4bdc-ac63-03a918e731ae" SourceId="1" SourceUrl="http://192.168.1.156:8066/server/SalesOpt.svc/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="b68131d5-96af-4957-bda3-95e9e5a107c4" SourceId="1" SourceUrl="http://192.168.1.156:8066/server/SalesOpt.svc/mex/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="6f1473a8-a22c-4772-aa73-594bb22338fe" SourceId="1" SourceUrl="http://192.168.1.156:8066/server/SalesOpt.svc/mex/mex" />
+    <MetadataFile FileName="service21.xsd" MetadataType="Schema" ID="809072a6-8517-4086-a3cd-09cde544d73e" SourceId="1" SourceUrl="http://192.168.1.156:8066/server/SalesOpt.svc/mex/mex" />
+    <MetadataFile FileName="System.Data1.xsd" MetadataType="Schema" ID="1dc71325-3e73-4a68-802c-7837adb3a223" SourceId="1" SourceUrl="http://192.168.1.156:8066/server/SalesOpt.svc/mex/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -20,8 +20,8 @@ namespace WcfService
         public DataTable GetData()
         {
             DataSet ds = new DataSet();
-            SqlConnection con = new SqlConnection("Data Source=192.168.2.112;Initial Catalog=FoxTest;User ID=sa;Password=123456;Persist Security Info=False;Max Pool Size=100");
-            string sql = "select top 30 * from Users";
+            SqlConnection con = new SqlConnection("Data Source=192.168.2.112;Initial Catalog=Fox;User ID=sa;Password=123456;Persist Security Info=False;Max Pool Size=100");
+            string sql = "select top 30 * from User";
             using (SqlCommand cmd = new SqlCommand(sql, con))
             {
                 con.Open();
